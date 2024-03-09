@@ -532,7 +532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackPrefab: {fileID: 75647414}
   playerObject: {fileID: 1904450024}
-  spawnRate: 10
+  spawnRate: 0.5
   spawnDistance: 50
   nextSpawnTime: 0
 --- !u!4 &1702906028
@@ -803,7 +803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1904450024}
-  distance: 100
+  distance: 70
   xSpeed: 250
   ySpeed: 120
   yMinLimit: -180

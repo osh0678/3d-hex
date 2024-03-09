@@ -21,7 +21,6 @@ public class HitboxObject : PlayerObject
     }
     public void TakeDamage(int damage)
     {
-        Debug.Log("Player Hit");
         playerObject.GetComponent<PlayerHealth>().health -= damage;
         if (playerObject.GetComponent<PlayerHealth>().health <= 0)
         {
